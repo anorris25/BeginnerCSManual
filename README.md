@@ -17,9 +17,10 @@ Computer Science in its entirety comes off as intimidating. This manual aims to 
   * Conditionals
   * For/While Loops
   * Functions
-* Try it on your own!
+
+3. Try it on your own!
   * This will provide prompts for the user to try on their own. (Ex: Try to print "Hello World" 10 times)
 
-3. Ethics
+4. Ethics
 
-4. Inclusion
+5. Inclusion
