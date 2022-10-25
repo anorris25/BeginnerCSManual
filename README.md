@@ -12,11 +12,12 @@ Computer Science in its entirety comes off as intimidating. This manual aims to 
 2. Important Concepts with Example Code
 * Show what a compiler looks like (provide web compiler ex: onlinegdb.com)
 * Show syntax for simple structures
-  * Variables
-  * Print Statements
+  * Variables/Print Statements
   * Conditionals
   * For/While Loops
   * Functions
+  
+  *Where from here?
 
 3. Try it on your own!
   * This will provide prompts for the user to try on their own. (Ex: Try to print "Hello World" 10 times)
