@@ -1,5 +1,12 @@
 # Module 4: Functions
 
+## Before you begin:
+Follow along! We are going to be using a free online compiler called Programiz for all of our programs. Link: https://www.programiz.com/python-programming/online-compiler/
+Programiz Guide:
+
+
+
+
 ## What are Functions?
 * Functions are structures that allow us to complete a series of actions in our program. We use them to perform tasks!
 * Example (read the comments!):
