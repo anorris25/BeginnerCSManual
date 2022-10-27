@@ -11,7 +11,7 @@
 * Take a look at https://docs.python.org/3/library/functions.html to see all of Python's built-in functions. Scroll down to see what they do!
 3. __User-defined functions:__ functions that programmers create to accomplish specific tasks in their program.
 
-## Function Structure
+## Function Structure:
 
 Let's analyze our "do_something()" function from before:
 
@@ -45,7 +45,7 @@ Notice that unlike do_something(), add(num1, num2) prints nothing to the console
 
 <img src="https://github.com/anorris25/BeginnerCSManual/blob/6f537e6819dc8450cce30b641506e9cc84ad3460/Images/print_add.png" alt="printing add" width="800"/>
 
-## User Input!
+## User Input!:
 
 When programs need the user to provide information, it takes in _user input_. Here, we will learn how to use the built-in Python function _input()_ to store what the user provides for us.
 
@@ -75,7 +75,7 @@ Define a function named cats_or_dogs that takes no parameters. Ask the user "Whi
 * Use conditionals since we are checking for different inputs. If this happens -> then do this
 * We use == to determine if two values are the same. Strings are values!
 
-## Solution
+## Solution:
 
 <img src="https://github.com/anorris25/BeginnerCSManual/blob/81cf8d14ce348c9d32ed972a2989b6f84595ab44/Images/func_solution.png" alt="solution to cats_or_dogs" width="800"/>
 Don't be intimidated by the code. Read it line by line and try to understand what it's doing!
