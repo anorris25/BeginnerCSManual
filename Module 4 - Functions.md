@@ -10,7 +10,7 @@
 * Take a look at https://docs.python.org/3/library/functions.html to see all of Python's built-in functions. Scroll down to see what they do!
 3. __User-defined functions:__ functions that programmers create to accomplish specific tasks in their program.
 
-## Making your own Functions!
+## Function Structure
 
 Let's analyze our "do_something()" function from before:
 
@@ -29,7 +29,22 @@ Let's analyze our "do_something()" function from before:
 
 3. To call a function, simply write the function name followed by parentheses. If the function takes parameters, put them _inside_ the parentheses.
 * _makeTable()_, _greet("John")_, and _add(x, y)_ are all valid function calls.
+* Do NOT put a function call within the function definition! This may result in an infinite loop.
+  * In later programming courses you will learn how to do this properly. It's called _recursion_!
 
+## Let's take a look at another example (with parameters!):
+
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/6f537e6819dc8450cce30b641506e9cc84ad3460/Images/add.png" alt="add" width="800"/>
+
+This add function takes in two parameters (num1, and num2).
+* num1 and num2 reserve spots for numbers or variables that contain numbers!
+* This function _returns_ the sum of num1 and num2.
+
+Notice that unlike do_something(), add(num1, num2) prints nothing to the console!
+* This is because the do_something() function prints within the function.
+* In order to see if our add function is working properly, we can call the function within a print statement!
+
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/6f537e6819dc8450cce30b641506e9cc84ad3460/Images/print_add.png" alt="printing add" width="800"/>
 
 
 
