@@ -16,8 +16,7 @@ Computer Science in its entirety comes off as intimidating. This manual aims to 
   * Conditionals
   * For/While Loops
   * Functions
-  
-  *Where from here?
+  * Where from here?
 
 3. Try it on your own!
   * This will provide prompts for the user to try on their own. (Ex: Try to print "Hello World" 10 times)
