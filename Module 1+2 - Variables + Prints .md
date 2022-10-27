@@ -29,6 +29,8 @@
 #### print(type(x)).  -> <class 'int'>
 #### print(type(y))  -> <class ‘str’>
 
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/checkDataType.png" alt="app store" width="800"/>
+
 ## **To specify the data type of a variable, use casting**
 
 #### x = str(3)  -> the integer is now turned into a string -> ‘3’
