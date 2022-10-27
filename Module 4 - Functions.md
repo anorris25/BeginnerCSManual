@@ -46,9 +46,13 @@ Notice that unlike do_something(), add(num1, num2) prints nothing to the console
 
 <img src="https://github.com/anorris25/BeginnerCSManual/blob/6f537e6819dc8450cce30b641506e9cc84ad3460/Images/print_add.png" alt="printing add" width="800"/>
 
-## Let's Make a Cool Function!
+## User Input!
 
-Here we'll learn how to write a "greet" function that asks the user for their name and says "Hello *user name*!" Also, we'll teach you how to take in user input which can be super handy!
+When programs need the user to provide information, it takes in _user input_. Here, we will learn how to use the built-in Python function _input()_ to store what the user provides for us.
+
+Below is the definition of a "greet" function that asks the user for their name and says "Hello *user name*, how are you?":
+
+
 
 
 
