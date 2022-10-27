@@ -26,15 +26,14 @@
 
 ## **To check the data type assigned to your variable, use the type() function**
 
-#### print(type(x)).  -> <class 'int'>
-#### print(type(y))  -> <class ‘str’>
-
 <img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/checkDataType.png" alt="app store" width="800"/>
 
 ## **To specify the data type of a variable, use casting**
 
 #### x = str(3)  -> the integer is now turned into a string -> ‘3’
 #### y = int(‘3’)  -> the string is now turned into a integer -> 3
+
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/casting.png" alt="app store" width="800"/>
 
 # Print Statements
 
@@ -47,7 +46,14 @@
 #### z = "awesome"
 
 ## **Utilizing print systems:**
-#### print(x, y, z)   -> Python is awesome -> automatically assumed to use “ “ as separator
-#### print(x, y, z, sep=“—“) —> Python—is—awesome -> using “—“ as a separator
-#### print(x + “ “ + y + “ “ + “ “ + z)  -> Python is awesome -> can separate variables using “+” as well
-#### print(x +y+z) -> Pythonisawesome -> make sure to carefully add separators when using “+”
+#### Automatically assumed to use “ “ as separator
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/printStatement1.png" alt="app store" width="800"/>
+
+#### Use a different separator(“—“)
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/printStatement2.png" alt="app store" width="800"/>
+
+#### Can separate variables using “+” as well
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/printStatement3.png" alt="app store" width="800"/>
+
+#### Carefully add separators when using “+”
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/printStatement4.png" alt="app store" width="800"/>
