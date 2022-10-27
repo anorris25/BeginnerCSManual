@@ -7,7 +7,8 @@
 
 ## 2. What resources do I need?
 - Online Python Code Environment:
-    - We will use `https://www.onlinegdb.com` to write and run our code
+    - We will use [Online Compiler](https://www.onlinegdb.com) to write and run our code
+        - **Remember to change the website's language to Python 3**
     - Our language of choice will be *python 3* but these concepts can be applied to any other language as well
 - Patience and time
     - You will need to read and understand the modules and code that we have provided
