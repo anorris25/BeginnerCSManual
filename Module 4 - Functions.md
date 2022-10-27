@@ -50,7 +50,9 @@ Notice that unlike do_something(), add(num1, num2) prints nothing to the console
 
 When programs need the user to provide information, it takes in _user input_. Here, we will learn how to use the built-in Python function _input()_ to store what the user provides for us.
 
-Below is the definition of a "greet" function that asks the user for their name and says "Hello *user name*, how are you?":
+Below is the definition of a "greet" function that asks the user for their name and says "Hello * user name * , how are you?":
+
+
 
 
 
