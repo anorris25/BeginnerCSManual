@@ -1,17 +1,5 @@
 # Module 4: Functions
 
-## Before you begin:
-Follow along and learn while typing! We will be using a free online compiler called Programiz for all of our programs. Link: https://www.programiz.com/python-programming/online-compiler/
-
-## Handy Dandy Programiz Guide:
-
-<img src="https://github.com/anorris25/BeginnerCSManual/blob/a2ff1d53e8c1da13cc52a32df2b7d70e4f62d03a/Images/programiz.png" alt="programiz guide" width="800"/>
-
-Notes:
-* We will be programming with Python throughout each module. (see Python selected in blue in top left)
-* We write our _code_ in the left box. This is our miniature program file. When you click the "Run" button, the program outputs in the right box. Use the clear button to clear output.
-* If your program outputs an error, your code needs a fix. Common errors include: missing marks ( , : () # ), misspelled functions, and improper formatting
-
 ## What are Functions?
 * Functions are structures that allow us to complete a series of actions in our program. We use them to perform tasks!
 * Example (read the comments!):
