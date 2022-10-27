@@ -1,28 +1,19 @@
-# The Basics of Computer Science and Programming (Elementary Level)
+# The Basics of Computer Science and Programming
 
-Computer Science in its entirety comes off as intimidating. This manual aims to introduce some simple CS structures and syntax to kids or beginners interested in programming. Learning the basics is a great way to start pursuing computer programming!
+Computer Science in its entirety comes off as intimidating. This manual aims to introduce some simple CS structures and syntax to middle school students or beginners interested in programming. Learning the basics is a great way to start pursuing computer programming!
 
 ## Sections: 
 
-1. What is Computer Science?
-* Definition
-* Where it's used
-* Overview of programming languages and what they are used for
+* Module 0 - Start Here (Prelude)
+* Module 1 - Variables & Print Statements
+* Module 2 - Conditionals
+* Module 3 - Loops
+* Module 4 - Functions
+* Module 5 - CS and Beyond
+* Module 7 - Try it Yourself!
 
-2. Important Concepts with Example Code
-* Show what a compiler looks like (provide web compiler ex: onlinegdb.com)
-* Show syntax for simple structures
-  * Variables/Print Statements
-  * Conditionals
-  * For/While Loops
-  * Functions
-  * Where from here?
+### Ethics
 
-3. Try it on your own!
-  * This will provide prompts for the user to try on their own. (Ex: Try to print "Hello World" 10 times)
-
-4. Ethics
-
-5. Inclusion
+### Inclusion
 
 https://www.programiz.com/python-programming/online-compiler/
