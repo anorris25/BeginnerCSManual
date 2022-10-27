@@ -1,12 +1,11 @@
-# Module 2: Conditions
-## What are condition? and why?
+# Module 2: Conditionals
+## What are Conditionals? and Why?
 
-* Condition are the code that makes your program does different base on 
-    each situation
-* Without condition, one program can only do thing no matter what the actual situation is
-* Without condition, program will fail and crush if it encounters a situation you hadn't thought of
+* Conditionals are the code that makes your program run a different base in certain situations
+* Without conditionals, one program can only do thing no matter what the actual situation is
+* Without conditionals, program will fail and crash if it encounters a situation you hadn't thought of
 
-## Let's Check Common Condition Code in Python!
+## Let's Check Common Conditional Code in Python!
 ### Type of Conditions
 - Equals: a == b, this will check if a equal to b, and return true or false base on each case
 - Not Equals: a != b , this will check if a unequal to b, and return true or false base on each case
