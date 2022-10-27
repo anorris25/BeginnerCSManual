@@ -12,10 +12,10 @@
 ### Legal variable names:
 #### myvar = “Sam”
 #### my_var = “Sam”
-#### _my_var = “Sam”
+#### _my_var_ = “Sam”
 
 ### Illegal variable names:
-#### 2myvar = “Sam”
+#### 7myvar = “Sam”
 #### my-var = “Sam”
 #### my var = “Sam”
 
