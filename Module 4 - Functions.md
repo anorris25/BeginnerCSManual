@@ -63,17 +63,22 @@ The computer is asking for your name! Do you see the cursor on the console? Writ
 
 What really happens here when you hit enter is whatever you typed to the console is then stored in variable, _name_. Then, our function prints the greeting statement with whatever you entered to the console (see image below). Pretty cool right?
 
-<img src="https://github.com/anorris25/BeginnerCSManual/blob/655439bd4edbefed60aca3dd33ad3e4a138b3ae2/Images/greet4.png" alt="outpu greet!" width="800"/>
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/655439bd4edbefed60aca3dd33ad3e4a138b3ae2/Images/greet4.png" alt="output greet!" width="800"/>
 
 ## Challenge Problem: Cats or Dogs
 
-Write a function named cats_or_dogs that takes no parameters. Ask the user "Which is better? cats or dogs: ". If the user inputs "cats", the console should respond with "Meow!". If the user responds with "dogs", the console should respond with "Bark!" If the user inputs something other that "cats" or "dogs", the console should tell them "You can only answer cats or dogs. Try again!", then the prompt appears again.
+Define a function named cats_or_dogs that takes no parameters. Ask the user "Which is better? cats or dogs: ". If the user inputs "cats", the console should respond with "Meow!". If the user responds with "dogs", the console should respond with "Bark!" If the user inputs something other that "cats" or "dogs", the console should tell them "You can only answer cats or dogs. Try again!", then the prompt appears again.
 
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/81cf8d14ce348c9d32ed972a2989b6f84595ab44/Images/cats_or_dogs.png" alt="empty cats_or_dogs" width="800"/>
 
-
-### Hints
+### Hints:
 * Use conditionals since we are checking for different inputs. If this happens -> then do this
 * We use == to determine if two values are the same. Strings are values!
+
+## Solution
+
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/81cf8d14ce348c9d32ed972a2989b6f84595ab44/Images/func_solution.png" alt="solution to cats_or_dogs" width="800"/>
+Don't be intimidated by the code. Read it line by line and try to understand what it's doing!
 
 ## Summary:
 
