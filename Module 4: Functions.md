@@ -14,7 +14,7 @@
 
 Let's analyze our "do_something()" function from before:
 
-<img src="https://github.com/anorris25/BeginnerCSManual/blob/a6f409a8635337a95234dd67dde936694c0428b6/Images/Functions%20Example.png" alt="app store" width="800"/>
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/66861bbc0a9b449be7bed090ccdbd56dc98e93ef/Images/FunctionsExMarked.jpg" alt="app store" width="800"/>
 
 
 
