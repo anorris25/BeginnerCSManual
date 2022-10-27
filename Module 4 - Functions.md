@@ -6,7 +6,7 @@
 <img src="https://github.com/anorris25/BeginnerCSManual/blob/6f537e6819dc8450cce30b641506e9cc84ad3460/Images/do_something.png" alt="do_something function" width="800"/>
 
 ## Types of Functions:
-1. __Built-in functions:__ functions that Python provides for us like __print()__!
+1. __Built-in functions:__ functions that Python provides for us like __print()__ and __input__!
 * Take a look at https://docs.python.org/3/library/functions.html to see all of Python's built-in functions. Scroll down to see what they do!
 3. __User-defined functions:__ functions that programmers create to accomplish specific tasks in their program.
 
@@ -48,7 +48,8 @@ Notice that unlike do_something(), add(num1, num2) prints nothing to the console
 
 ## Let's Make a Cool Function!
 
-Here we'll learn how to write a "greet" function that asks the user for their name and says "Hello *user name*!"
+Here we'll learn how to write a "greet" function that asks the user for their name and says "Hello *user name*!" Also, we'll teach you how to take in user input which can be super handy!
+
 
 
 
