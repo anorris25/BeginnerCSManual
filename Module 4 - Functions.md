@@ -1,10 +1,11 @@
 # Module 4: Functions
 
 ## Before you begin:
-Follow along! We are going to be using a free online compiler called Programiz for all of our programs. Link: https://www.programiz.com/python-programming/online-compiler/
+Follow along and learn while typing! We will be using a free online compiler called Programiz for all of our programs. Link: https://www.programiz.com/python-programming/online-compiler/
+
 Programiz Guide:
 
-
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/6f537e6819dc8450cce30b641506e9cc84ad3460/Images/programiz.png" alt="programiz guide" width="800"/>
 
 
 ## What are Functions?
