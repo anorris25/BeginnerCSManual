@@ -12,9 +12,6 @@ Notes:
 * We write our _code_ in the left box. This is our miniature program file. When you click the "Run" button, the program outputs in the right box. Use the clear button to clear output.
 * If your program outputs an error, your code needs a fix. Common errors include: missing marks ( , : () # ), misspelled functions, and improper formatting
 
-## Spot the Difference:
-
-
 ## What are Functions?
 * Functions are structures that allow us to complete a series of actions in our program. We use them to perform tasks!
 * Example (read the comments!):
