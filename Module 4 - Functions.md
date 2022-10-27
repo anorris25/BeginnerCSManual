@@ -46,5 +46,10 @@ Notice that unlike do_something(), add(num1, num2) prints nothing to the console
 
 <img src="https://github.com/anorris25/BeginnerCSManual/blob/6f537e6819dc8450cce30b641506e9cc84ad3460/Images/print_add.png" alt="printing add" width="800"/>
 
+## Let's Make a Cool Function!
+
+Here we'll learn how to write a "greet" function that asks the user for their name and says "Hello *user name*!"
+
+
 
 
