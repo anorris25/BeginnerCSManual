@@ -3,7 +3,7 @@
 ## What are Loops?
 * Loops are a sequence of instructions that are continually repeated until a certain condition is reached. We can use loops to repeat an instruction multiple times!
 
-<img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/Loop%20Example.gif" alt="app store" width="800"/>
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/Loop%20Example.gif" alt="app store" width="300"/>
 
 ## Types of Loops:
 1. For Loop
