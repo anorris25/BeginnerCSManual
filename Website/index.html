@@ -22,12 +22,18 @@
 
             <h2>2. What Resources Do I Need? </h2>
 
-            <ul>
-                <li>Online Python Code Environment:</li>
-                <ul>
-                    <li>We will use <a href="https://www.programiz.com/python-programming/online-compiler/"> ONLINE PYTHON</a> to write and run our code</li>
+            <p>Follow along and learn while typing! We will be using a free online compiler called Programiz for all of our programs. Link: https://www.programiz.com/python-programming/online-compiler/</p>
 
-                    <li>Our language of choice will be *python 3* but these concepts can be applied to any other language as well</li>
+            <h3>Handy Dandy Programiz Guide:</h3>
+            <img src="images/programiz.png" alt="">
+            <ul>
+                <li>Programiz Notes:</li>
+                <ul>
+                    <li>Make sure Python is selected (top left).</li>
+
+                    <li>We write our code in the left box. This is our miniature program file. When you click the "Run" button, the program outputs in the right box. Use the clear button to clear output.</li>
+
+                    <li>If your program outputs an error, your code needs a fix. Common errors include: missing marks ( , : () # ), misspelled functions, and improper formatting</li>
                 </ul>
                 <li>Patience and time</li>
                 <ul>
@@ -89,61 +95,70 @@
                 <li>Are case-sensitive (var, Var and VAR are three different variables)</li>
 
             </ul>
-
-            <h2>2. What Resources Do I Need? </h2>
-
+            <h3>Legal Variable Name Examples:</h3>
             <ul>
-                <li>Online Python Code Environment:</li>
-                <ul>
-                    <li>We will use <a href="https://www.programiz.com/python-programming/online-compiler/"> ONLINE PYTHON</a> to write and run our code</li>
-
-                    <li>Our language of choice will be *python 3* but these concepts can be applied to any other language as well</li>
-                </ul>
-                <li>Patience and time</li>
-                <ul>
-                    <li>You will need to read and understand the modules and code that we have provided</li>
-
-                    <li>There will be a `Do It Yourself` challenge at the end of each module that we encourage students to complete on their own, without any notes</li>
-                </ul>
+                <li>myvar = “Sam”</li>
+                <li>my_var = “Sam”</li>
+                <li>my_var = “Sam”</li>
             </ul>
 
-            <h2>3. How Can I Make the Most of It? </h2>
+            <h3>Illegal Variable Name Examples:</h3>
             <ul>
-                <li>
-                    Move in small chunks
-                </li>
-                <ul>
-                    <li>Instead of running through this course in a single day, go by each module day by day or week by week </li>
-
-                    <li>Make sure you're understanding the concepts and know how to apply them, rather than just copy and paste code</li>
-                </ul>
-                <li>Do the practice assignments</li>
-                <ul>
-                    <li>Practicing is the only way to really perfect these concepts</li>
-                    <li>If you run into errors, try to <b>debug</b> the code and understand what each line does</li>
-                </ul>
-
-                <li>Follow the resources</li>
-                <ul>
-                    <li>We've linked many different resources within each module to help you understand each piece correctly, use them whenever you need</li>
-                </ul>
-                <li>Break it down</li>
-                <ul>
-                    <li>Nothing we present will be impossible since this course is carefully crafted for most beginner audiences with no prior experience</li>
-
-                    <li>Break down complex concepts/ homework assignments into pieces that you understand and can attack individually</li>
-                </ul>
+                <li>7myvar = “Sam”</li>
+                <li>my-var = “Sam”</li>
+                <li>my var = “Sam”</li>
             </ul>
 
-            <h2>4. Closing Notes </h2>
+            <h2>Variable Declaration</h2>
+            <p>Python has no command for declaring a variable so datatype are automatically assigned</p>
             <ul>
-                <li>We're glad you chose this course to guide you through the basics of CS </li>
-
-                <li>We hope that you're able to learn and apply these new concepts in all aspects of your educational and professional career</li>
-
-                <li>Good luck! </li>
-
+                <li>x = 3 -> automatically assumed to be an int</li>
+                <li>y = “Tom” -> automatically assumed to be a string</li>
             </ul>
+            <h3>type() function</h3>
+            <p>To check the data type assigned to your variable, use the type() function</p>
+            <img src="images/checkDataType.png" alt="">
+            
+            <h2>Casting</h2>
+            <p>To specify the data type of a variable, use casting</p>
+            <ul>
+                <li>x = str(3)  -> the integer is now turned into a string -> ‘3’</li>
+                <li>y = int(‘3’)  -> the string is now turned into a integer -> 3</li>
+            </ul>
+            <img src="images/casting.png" alt="">
+
+            <h2>Printing</h2>
+            <p>print() function allows you to output variables <br> Components: print(object(s), sep=separator, end=end, file=file, flush=flush)</p>
+            <ul>
+                <li>x = "Python"</li>
+                <li>y = "is"</li>
+                <li>z = "awesome"</li>
+            </ul>
+            <p>Utilizing print systems: <br>
+                Automatically assumed to use “ “ as separator</p>
+            <img src="images/printStatement1.png" alt="">
+            <p>Use a different separator(“—“)</p>
+            <img src="images/printStatement2.png" alt="">
+            <p> Can separate variables using “+” as well</p>
+            <img src="images/printStatement3.png" alt="">
+            <p>Carefully add separators when using “+”</p>
+            <img src="images/printStatement4.png" alt="">
+    </section>
+
+    <section id="module2">
+
+    </section>
+
+    <section id="module3">
+
+    </section>
+
+    <section id="module4">
+
+    </section>
+
+    <section id="module5">
+
     </section>
 </body>
 </html>
