@@ -62,16 +62,16 @@
 
 ### An array is a special variable that can hold more than one value at a time.
 
-### When you have a list of items instead of making multiple variables like this: 
-#### name1 = “Fred”
-#### name2 = “George”
-#### name3 = “Sally”
+#### When you have a list of items instead of making multiple variables like this: 
+##### name1 = “Fred”
+##### name2 = “George”
+##### name3 = “Sally”
 
-### Solution is to use an array
-#### names = [“Fred”, “George”, “Sally”]
+#### Solution is to use an array
+##### names = [“Fred”, “George”, “Sally”]
 
-### To access element in array:
-#### names[0]     //this accesses element “Fred”
+#### To access element in array:
+##### names[0]   -> this accesses element “Fred”
 
-### To change element in array:
-#### names[0] = “Bob”    ///this allows the first element to now be “Bob” instead of “Fred”
+#### To change element in array:
+##### names[0] = “Bob”  -> this allows the first element to now be “Bob” instead of “Fred”
