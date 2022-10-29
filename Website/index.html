@@ -143,6 +143,28 @@
             <img src="images/printStatement3.png" alt="">
             <p>Carefully add separators when using “+”</p>
             <img src="images/printStatement4.png" alt="">
+
+            <h2>Arrays</h2>
+
+            <p>An array is a special variable that can hold more than one value at a time.</p>
+
+            <h3>Using an Array</h3>
+            <b>When you have a list of items instead of making multiple variables like this: </b>
+            <li> name1 = “Fred”</li>
+            <li> name1 = “Fred”</li>
+            <li> name2 = “George”</li>
+            <li> name3 = “Sally”</li>
+            
+            <b>Solution is to use an array</b>
+            <li>names = [“Fred”, “George”, “Sally”]</li>
+
+            <h3>Accessing Array Elements</h3>
+            <b>To access element in array:</b>
+            <li>names[0]   -> this accesses element “Fred”</li>
+            
+            <b>To change element in array:</b>
+            <li>names[0] = “Bob”  -> this allows the first element to now be “Bob” instead of “Fred”</li>
+
     </section>
 
     <section id="module2">
@@ -150,11 +172,138 @@
     </section>
 
     <section id="module3">
+        <h1>Loops</h1>
+        <h2>What Are Loops?</h2>
+        <li>Loops are a sequence of instructions that are continually repeated until a certain condition is reached. We can use loops to repeat an instruction multiple times!</li>
+        <img src="images/Loop Example.gif" alt="">
+
+        <h2>Types of Loops</h2>
+        <li>For Loop</li>
+        <li>While Loop</li>
+
+        <h3>Let's Make a For Loop!</h3>
+        <img src="images/For Loop Example.png" alt="">
+
+        <h3>Let's Make a While Loop!</h3>
+        <img src="images/While Loop Example.png" alt="">
+
+        <h2>Loop Dangers!</h2>
+
+        <h3>Infinite Loop</h3>
+        <p>An Infinite Loop is a continuous repetitive conditional loop that gets executed <b>forever</b>. Now an infinite loop will not necessarily run forever, it will eventually end when the computer runs out of memory. However, this is something you should avoid becuase your program will hang.
+        <br><br>
+        You can end up in an infinite loop if you don't have a condition that is met in your loop.</p>
+
+        <p>For Example:</p>
+        <img src="images/Infinite Loop.png" alt="">
+
+        <p>In the above image you can see the loop will never exit because <b>x</b> will never be less than <b>-2</b></p>
 
     </section>
 
     <section id="module4">
+        <h1>Functions</h1>
+        <h2>What Are Functions?</h2>
+        <li>Functions are structures that allow us to complete a series of actions in our program. We use them to perform tasks!</li>
+        <li>Example (read the comments!):</li>
 
+        <h2>Types of Functions</h2>
+        <ol>
+            <li> <b>Built-in functions:</b> functions that Python provides for us like <b>print()</b> and <b>input()</b>!</li>
+            <ul>
+            <li>Take a look at <a href="https://docs.python.org/3/library/functions.html">Python Docs</a>
+                 to see all of Python's built-in functions. Scroll down to see what they do!</li></ul>
+            <li><b>User defined functions:</b> functions that programmers create to accomplish specific tasks in their program.</li>
+        </ol>
+
+        <h2>Function Structure:</h2>
+
+        <p>Let's analyze our "do_something()" function from before:</p>
+
+        <img src="images/do_something_labeled.png" alt="do_something function labeled"/>
+
+        <ol>
+            <li>Every function in Python starts with <b>def</b>, followed by the <b>function name</b>, and <b>():</b></li>
+            <ul>
+                <li>"Parameters" are optional inputs that the function uses and changes. Parameters go <b>inside</b> the parentheses. (more on that later)</li>
+                <ul>
+                    <li><b>def makeTable():</b>, <b>def greet(name):</b>, and <b>def add(num1, num2):</b> are all valid first lines of a user-defined function.</li>
+                </ul>
+            </ul>
+            <li>Every function also contains a body.</li>
+            <ul>
+                <li>This is where we add statements to complete our tasks</li>
+                <li>In the do_something() function, our body completes 3 tasks:</li>
+                <ul>
+                    <li>prints "Look I'm doing something"</li>
+                    <li>prints 5 *s</li>
+                    <li>prints "Look I'm doing more!!!"</li>
+                </ul>
+            </ul>
+            <li>Calling a function causes the function body to execute. To call a function, simply write the function name followed by parentheses. If the function takes parameters, put them <b>inside</b> the parentheses.</li>
+            <ul>
+                <li><b>makeTable()</b>, <b>greet("John")</b>, and <b>add(x, y)</b> are all valid function calls.</li>
+            </ul>
+        </ol>
+        
+        <h2>Let's take a look at another example (with parameters!):</h2>
+        <img src="images/add.png" alt="">
+        <p>This add function takes in two parameters (num1, and num2).</p>
+        <li>num1 and num2 reserve spots for numbers or variables that contain numbers!</li>
+        <li>This function <b>returns</b> the sum of num1 and num2.  </li>
+
+        <p>Notice that unlike do_something(), add(num1, num2) prints nothing to the console!</p>
+        <li>This is because the do_something() function prints within the function.</li>
+        <li>In order to see if our add function is working properly, we can call the function within a print statement!</li>
+
+        <img src="images/print_add.png" alt="">
+
+        <h2>User Input!:</h2>
+
+        <p>When programs need the user to provide information, it takes in <b>user input</b>. Here, we will learn how to use the built-in Python function <b>input()</b> to store what the user provides for us.</p>
+
+        <p>Below is the definition of a "greet" function that asks the user for their name and says "Hello <b>user name </b> , how are you?":</p>
+
+        <img src="images/greet.png" alt="">
+
+        <p>Inside of input(), we pass a prompt. This prompt shown to the user before they provide their input. We typically choose prompts that tell the user what they are supposed to do. This is what you should see when your program runs:</p>
+
+        <img src="images/greet2.png" alt="">
+
+        <p>The computer is asking for your name! Do you see the cursor on the console? Write your name and hit enter!</p>
+
+        <img src="images/greet3.png" alt="">
+
+        <p>
+            What really happens here when you hit enter is whatever you typed to the console is then stored in variable, <b>name</b>. Then, our function prints the greeting statement with whatever you entered to the console (see image below). Pretty cool right?</p>
+
+        <img src="images/greet4.png" alt="">
+
+        <h2>Challenge Problem: Cats or Dogs</h2>
+        <p>Define a function named cats_or_dogs that takes no parameters. Ask the user "Which is better? cats or dogs: ". If the user inputs "cats", the console should respond with "Meow!". If the user responds with "dogs", the console should respond with "Bark!" If the user inputs something other that "cats" or "dogs", the console should tell them "You can only answer cats or dogs. Try again!", then the prompt appears again.</p>
+
+        <img src="images/cats_or_dogs.png" alt="">
+
+        <h3>Hints:</h3>
+        <li>Use conditionals since we are checking for different inputs. If this happens -> then do this</li>
+        <li>We use == to determine if two values are the same. Strings are values!</li>
+
+        <h2>Solution</h2>
+        <img src="images/func_solution.png" alt="">
+        <p>Don't be intimidated by the code. Read it line by line and try to understand what it's doing!</p>
+
+        <h2>Summary:</h2>
+        <ul>
+            <li>In this module, we covered:</li>
+            <ul>
+                <li>Functions: built-in & user defined</li>
+                <li>Function Structure</li>
+                <li>Parameters</li>
+                <li>User Input</li>
+            </ul>
+            <li>* Hopefully, completing this module helped you understand the significance of functions. Functions are very common and important structures used in programming. We use functions in our programs to do things! What would programs be if they couldn't do things? 
+            </li>
+        </ul>
     </section>
 
     <section id="module5">
