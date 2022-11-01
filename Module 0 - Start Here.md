@@ -19,7 +19,7 @@ Follow along and learn while typing! We will be using a free online compiler cal
 * If your program outputs an error, your code needs a fix. Common errors include: missing marks ( , : () # ), misspelled functions, and improper formatting
 ### You will need patience and time
 - You will need to read and understand the modules and code that we have provided.
-- There will be a `Do It Yourself` challenge at the end of each module that we encourage students to complete on their own, without any notes.
+- There will be a `Test Your Knowledge` challenge in the 6th module which students are encouraged to complete on their own.
 
 
 ## 3. How can I make the most of it?
