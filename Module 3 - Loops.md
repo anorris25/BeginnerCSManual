@@ -42,6 +42,8 @@ we can do this:
 
 <img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/forloop%20use2.png" alt="app store" width="800"/>
 
+A for loop allows you to be able to access every item in a list/array even if you dont know how many items are in the list/array. This is very useful for things such as reading from files. 
+
 
 ## Loop Dangers!
 
