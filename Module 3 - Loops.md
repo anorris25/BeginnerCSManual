@@ -30,10 +30,25 @@ Let's make a for loop:
 2. As with the while loop the body will contain the command to be carried out while the loop is running. 
 
 
+## Useful feature of a for loop in Python!
+
+A useful feature of for loops in pythonis that you are able to iterate through a list/array without having to index the list. 
+
+Instead of doing this:
+
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/forloop%20use1.png" alt="app store" width="800"/>
+
+we can do this:
+
+<img src="https://github.com/anorris25/BeginnerCSManual/blob/main/Images/forloop%20use2.png" alt="app store" width="800"/>
+
+A for loop allows you to be able to access every item in a list/array even if you dont know how many items are in the list/array. This is very useful for things such as reading from files. 
+
 
 ## Loop Dangers!
 
 **Infinite Loop**
+
 An Infinite Loop is a continuous repetitive conditional loop that gets executed *forever*. Now an infinite loop will not necessarily run forever, it will eventually end when the computer runs out of memory. However, this is something you should avoid becuase your program will hang. 
 
 You can end up in an infinite loop if you don't have a condition that is met in your loop. 
