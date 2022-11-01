@@ -1,0 +1,128 @@
+:root{
+    --gray: #34495e;
+    --teal: #1abc9c;
+    --purple: #9b59b6;
+    --lightGray: #95a5a6;
+    --white: #ecf0f1;
+    --peach: #fab1a0;
+    --lightPink: #fd79a8;
+    --lightBlue: #74b9ff;
+    --black: #324a5f;
+    --orange: #ff6b35;
+    --darkPurple: #533483;
+    --ivory: #F6F7EB;
+    --eggplant:#54414E;
+    --darkTeal: #006C67;
+}
+
+body{
+    background-color: var(--black);
+    font-family: Lucida Grande;
+}
+
+section{
+    max-width: 100vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 2vh;
+    background-color: var(--ivory);
+    border-radius: 3%;
+    margin-bottom: 5vh;
+    border: 3px solid black;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: var(--orange);
+}
+
+h2{
+    font-size: 2em;
+    color: var(--darkTeal);
+}
+
+h3{
+    font-size: 1.5em;
+}
+p, li{
+    font-size: 1.1em;
+    color:black;
+}
+
+a{
+    color: var(--teal);
+}
+
+img{
+    max-width: 70vw;
+    border: 2px solid black;
+    padding: 1vh;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+
+.Menu{
+    margin-left: 3%;
+    position: fixed;
+    /* width: 100%; */
+    float: left;
+    scroll-behavior: smooth;
+    /* transition: 3s; */
+    z-index: 50;
+  }
+  
+  .Menu > h3{
+    text-transform: uppercase;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px #3E4750;
+    /* #66E4E9; */
+    color: #E77FD6;
+    padding: 15px;
+    background: #C4C4C3;
+    border-radius: 50px;
+  
+  }
+  
+  .Menu:hover .Menu>h3{
+    transform: scale(1.1);
+    background: #3E4750;
+    border: 1px solid #C4C4C3;
+  }
+  .Menu:hover .Choices{
+    display: block;
+  }
+  
+  /* .Menu:hover .Menu>h3{
+    display: none;
+  } */
+  
+  .Choices{
+    display: none;
+    float: left;
+    text-align: left;
+    position: fixed;
+    transition: 3s;
+  }
+  .Choices > a{
+    font-family: 'Nova Mono', monospace;
+    text-decoration: none;
+    font-size: 15px;
+    margin: -5%;
+    border-radius: 50px;
+    background-color: #3E4750;
+    padding: 4%;
+  
+  }
+  
+  .Choices > a:hover{
+    border: 1px solid #C4C4C3;
+  }
