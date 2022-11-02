@@ -13,15 +13,20 @@
     <div class="Menu">
         <h3>Menu</h3>
         <div class="Choices">
-          <a href="#module0">Start Here</a><br><br>
-          <a href="#module1">Variables/Printing</a><br><br>
-          <a href="#module2">Conditionals</a><br><br>
-          <a href="#module3">Loops</a><br><br>
-          <a href="#module4">Functions</a><br><br>
-          <a href="#module5">CS and Beyond</a><br><br>
-          <a href="#module6">Knowledge Tests</a>
+          <a href="#module0">Start Here</a>
+          <br><br><br>
+          <a href="#module1">Variables/Printing</a>
+          <br><br><br>
+          <a href="#module2">Conditionals</a>
+          <br><br><br>
+          <a href="#module3">Loops</a>
+          <br><br><br>
+          <a href="#module4">Functions</a>
+          <br><br><br>
+          <a href="#module5">CS and Beyond</a>
+          <br><br><br>
+          <a href="#module6">Final Project</a>
         </div>
-
       </div>
 
     <section id="module0">
@@ -184,6 +189,40 @@
     </section>
 
     <section id="module2">
+        <h1>Conditions</h1>
+        <h2>What are conditions? and why?</h2>
+        <ul>
+            <li>Conditions are pieces of code that makes your program does different actions based on each situation</li>
+            <li>Without conditions, one program can only do a single thing, no matter what the actual situation is</li>
+            <li>Without conditions, your program will fail and crash if it encounters a situation you hadn't thought of</li>
+        </ul>
+        <img src="images/error.png" alt="">
+
+        <h2>Let's Check Common Conditional Code in Python!</h2>
+        <h3>Types of Conditions</h3>
+        <ul>
+            <li>Equals: a == b, this will check if a is equal to b, and return true or false base on each case</li>
+            <li>Not Equals: a != b , this will check if a is not equal to b, and return true or false base on each case</li>
+            <li>Less than: a < b , this will check if a is less than b, and return true or false base on each case</li>
+            <li>Less than or equal to: a <= b, this will check if less than or equal to b, and return true or false base on each case</li>
+            <li>Greater than: a > b, this will check if a is greater than b, and return true or false base on each case</li>
+            <li>Greater than or equal to: a >= b, this will check if a is greater than or equal to b, and return true or false base on each case</li>
+        </ul>
+        <p>Check out the following example below:</p>
+        <img src="images/condition0.png" alt="">
+
+        <p>Those conditions can help you get true or false base on different situation, so that the code can react differently to that true or false and has a different behavior. However, just having these conditions is not enough, let's learn another important python statement in next section <b>if/else</b> statements</p>
+
+    <h2>If ,else and elif?</h2>
+    <ul>
+        <li>if statement will check the true of false of its condition and decide which part should be run.</li>
+        <li>elif will run its part of code when its condition statement turn to be true.</li>
+        <li>else statement will run its code only when if statement and all the elif turn to false.</li>
+    </ul>
+    <p>Check out this example!</p>
+    <img src="images/c1.png" alt="">
+
+
 
     </section>
 
@@ -403,7 +442,58 @@
     </section>
 
     <section id="module6">
-        
+        <h1>Rock, Paper, Scissors!</h1>
+        <h3>Apply the concepts you've learned in modules 1-5 to make a program that plays rock, paper, scissors with the user!</h3>
+        <p>Think about what pieces you'll need from what you've just learned?</p>
+        <li>Variables to store information like player names?</li>
+        <li>User Input to take in what your response will be?</li>
+        <li>Conditional statements to see who wins?</li>
+        <li>Maybe a loop to play the game over and over?</li>
+            <h3>Step 1</h3>
+            <li>"import random" into your program. This will allow us to genereate random choices from the computer's side. (We'll see how to use it later)</li>
+            <img src="images/import_random.png" alt=""> 
+            <!-- TODO -->
+            <h3>Step 2</h3>
+            <li>We need to know what the user chose, and what the computer chose. Do not fear, we will show you how to know what the computer "chose".</li>
+            <li>First, store what the user chose. We learned how to do this with user input. We'll accept the inputs: "rock", "paper", or "scissors".</li>
+            <li>Next, we're going to use our import of "random" to store the computer's choice. Like so:</li>
+            <img src="images/random.jpg" alt="">
+
+            <p>As you can see, we've made an array of possible actions, and we make the computer randomly choose among those actions.</p>
+
+            <h3>Step 3</h3>
+            <li>The last thing we need to do is compare the user action and computer action and display a tie, win, or lose message.</li>
+            <li>Think of all the possible cases. What structures do we use when there are multiple cases?</li>
+            <li>Cases:</li>
+            <ul>
+                <li>User action is the same as computer action</li>
+                <li>User chooses rock</li>
+                <ul>
+                    <li>Computer chooses scissors</li>
+                    <li>Computer chooses paper</li>
+                </ul>
+                <li>User chooses paper</li>
+                <ul>
+                    <li>Computer chooses rock </li>
+                    <li>Computer chooses scissors </li>
+                </ul>
+                <li>User chooses scissors</li>
+                <ul>
+                    <li>Computer chooses paper</li>
+                    <li>Computer chooses rock</li>
+                </ul>
+
+                <div class="hiddenCover">
+                    <h2> ~ Solution ~ </h2>
+                    <b id="middle">Hover here to see our solution!</b>
+                    
+                <div class = "hidden">
+                    <p>Here is the solution that we've come up with. Just remember, there are many ways to go about this project.</p>
+                    <img src="images/rps_solution.JPEG" alt="">
+                </div>
+            </div>
+
+
     </section>
 </body>
 </html>
