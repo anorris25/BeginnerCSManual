@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="Menu">
+        <h3>Menu</h3>
+        <div class="Choices">
+          <a href="#module0">Start Here</a>
+          <br><br><br>
+          <a href="#module1">Variables/Printing</a>
+          <br><br><br>
+          <a href="#module2">Conditionals</a>
+          <br><br><br>
+          <a href="#module3">Loops</a>
+          <br><br><br>
+          <a href="#module4">Functions</a>
+          <br><br><br>
+          <a href="#module5">CS and Beyond</a>
+          <br><br><br>
+          <a href="#module6">Final Project</a>
+        </div>
+      </div>
+
+    <section id="module0">
+        <h1>Start Here</h1>
+            <h2>1. What is This Course?</h2>
+            <ul>
+                <li>This is a beginner course for middle school students who want to gain basic CS Skills</li>
+
+                <li>Computer Science (CS) is the study of different problems and the ways we can code to solve them. Although there are countless different languages, each with their own unique features and drawbacks, these basic concepts can be applied to almost all of them</li>
+
+                <li>CS allows us to approach complex problems and break it down into smaller pieces that we can manage, this is an important skill you'll need to use in many parts of your day-to-day </li>
+
+            </ul>
+
+            <h2>2. What Resources Do I Need? </h2>
+
+            <p>Follow along and learn while typing! We will be using a free online compiler called Programiz for all of our programs. Link: https://www.programiz.com/python-programming/online-compiler/</p>
+
+            <h3>Handy Dandy Programiz Guide:</h3>
+            <img src="images/programiz.png" alt="">
+            <ul>
+                <li>Programiz Notes:</li>
+                <ul>
+                    <li>Make sure Python is selected (top left).</li>
+
+                    <li>We write our code in the left box. This is our miniature program file. When you click the "Run" button, the program outputs in the right box. Use the clear button to clear output.</li>
+
+                    <li>If your program outputs an error, your code needs a fix. Common errors include: missing marks ( , : () # ), misspelled functions, and improper formatting</li>
+                </ul>
+                <li>Patience and time</li>
+                <ul>
+                    <li>You will need to read and understand the modules and code that we have provided</li>
+
+                    <li>There will be a `Do It Yourself` challenge at the end of each module that we encourage students to complete on their own, without any notes</li>
+                </ul>
+            </ul>
+
+            <h2>3. How Can I Make the Most of It? </h2>
+            <ul>
+                <li>
+                    Move in small chunks
+                </li>
+                <ul>
+                    <li>Instead of running through this course in a single day, go by each module day by day or week by week </li>
+
+                    <li>Make sure you're understanding the concepts and know how to apply them, rather than just copy and paste code</li>
+                </ul>
+                <li>Do the practice assignments</li>
+                <ul>
+                    <li>Practicing is the only way to really perfect these concepts</li>
+                    <li>If you run into errors, try to <b>debug</b> the code and understand what each line does</li>
+                </ul>
+
+                <li>Follow the resources</li>
+                <ul>
+                    <li>We've linked many different resources within each module to help you understand each piece correctly, use them whenever you need</li>
+                </ul>
+                <li>Break it down</li>
+                <ul>
+                    <li>Nothing we present will be impossible since this course is carefully crafted for most beginner audiences with no prior experience</li>
+
+                    <li>Break down complex concepts/ homework assignments into pieces that you understand and can attack individually</li>
+                </ul>
+            </ul>
+
+            <h2>4. Closing Notes </h2>
+            <ul>
+                <li>We're glad you chose this course to guide you through the basics of CS </li>
+
+                <li>We hope that you're able to learn and apply these new concepts in all aspects of your educational and professional career</li>
+
+                <li>Good luck! </li>
+
+            </ul>
+    </section>
+
+    <section id="module1">
+        <h1>Variables and Printing</h1>
+            <h2>Choosing a Variable Name</h2>
+            <ul>
+                <li>Only use alpha-numeric characters and underscores (A-z, 0-9, and _ )</li>
+
+                <li>The name needs to start with a letter or underscore character</li>
+
+                <li>Cannot start with a number</li>
+
+                <li>Are case-sensitive (var, Var and VAR are three different variables)</li>
+
+            </ul>
+            <h3>Legal Variable Name Examples:</h3>
+            <ul>
+                <li>myvar = “Sam”</li>
+                <li>my_var = “Sam”</li>
+                <li>my_var = “Sam”</li>
+            </ul>
+
+            <h3>Illegal Variable Name Examples:</h3>
+            <ul>
+                <li>7myvar = “Sam”</li>
+                <li>my-var = “Sam”</li>
+                <li>my var = “Sam”</li>
+            </ul>
+
+            <h2>Variable Declaration</h2>
+            <p>Python has no command for declaring a variable so datatype are automatically assigned</p>
+            <ul>
+                <li>x = 3 -> automatically assumed to be an int</li>
+                <li>y = “Tom” -> automatically assumed to be a string</li>
+            </ul>
+            <h3>type() function</h3>
+            <p>To check the data type assigned to your variable, use the type() function</p>
+            <img src="images/checkDataType.png" alt="">
+            
+            <h2>Casting</h2>
+            <p>To specify the data type of a variable, use casting</p>
+            <ul>
+                <li>x = str(3)  -> the integer is now turned into a string -> ‘3’</li>
+                <li>y = int(‘3’)  -> the string is now turned into a integer -> 3</li>
+            </ul>
+            <img src="images/casting.png" alt="">
+
+            <h2>Printing</h2>
+            <p>print() function allows you to output variables <br> Components: print(object(s), sep=separator, end=end, file=file, flush=flush)</p>
+            <ul>
+                <li>x = "Python"</li>
+                <li>y = "is"</li>
+                <li>z = "awesome"</li>
+            </ul>
+            <p>Utilizing print systems: <br>
+                Automatically assumed to use “ “ as separator</p>
+            <img src="images/printStatement1.png" alt="">
+            <p>Use a different separator(“—“)</p>
+            <img src="images/printStatement2.png" alt="">
+            <p> Can separate variables using “+” as well</p>
+            <img src="images/printStatement3.png" alt="">
+            <p>Carefully add separators when using “+”</p>
+            <img src="images/printStatement4.png" alt="">
+
+            <h2>Arrays</h2>
+
+            <p>An array is a special variable that can hold more than one value at a time.</p>
+
+            <h3>Using an Array</h3>
+            <b>When you have a list of items instead of making multiple variables like this: </b>
+            <li> name1 = “Fred”</li>
+            <li> name1 = “Fred”</li>
+            <li> name2 = “George”</li>
+            <li> name3 = “Sally”</li>
+            
+            <b>Solution is to use an array</b>
+            <li>names = [“Fred”, “George”, “Sally”]</li>
+
+            <h3>Accessing Array Elements</h3>
+            <b>To access element in array:</b>
+            <li>names[0]   -> this accesses element “Fred”</li>
+            
+            <b>To change element in array:</b>
+            <li>names[0] = “Bob”  -> this allows the first element to now be “Bob” instead of “Fred”</li>
+
+    </section>
+
+    <section id="module2">
+        <h1>Conditions</h1>
+        <h2>What are conditions? and why?</h2>
+        <ul>
+            <li>Conditions are pieces of code that makes your program does different actions based on each situation</li>
+            <li>Without conditions, one program can only do a single thing, no matter what the actual situation is</li>
+            <li>Without conditions, your program will fail and crash if it encounters a situation you hadn't thought of</li>
+        </ul>
+        <img src="images/error.png" alt="">
+
+        <h2>Let's Check Common Conditional Code in Python!</h2>
+        <h3>Types of Conditions</h3>
+        <ul>
+            <li>Equals: a == b, this will check if a is equal to b, and return true or false base on each case</li>
+            <li>Not Equals: a != b , this will check if a is not equal to b, and return true or false base on each case</li>
+            <li>Less than: a < b , this will check if a is less than b, and return true or false base on each case</li>
+            <li>Less than or equal to: a <= b, this will check if less than or equal to b, and return true or false base on each case</li>
+            <li>Greater than: a > b, this will check if a is greater than b, and return true or false base on each case</li>
+            <li>Greater than or equal to: a >= b, this will check if a is greater than or equal to b, and return true or false base on each case</li>
+        </ul>
+        <p>Check out the following example below:</p>
+        <img src="images/condition0.png" alt="">
+
+        <p>Those conditions can help you get true or false base on different situation, so that the code can react differently to that true or false and has a different behavior. However, just having these conditions is not enough, let's learn another important python statement in next section <b>if/else</b> statements</p>
+
+    <h2>If ,else and elif?</h2>
+    <ul>
+        <li>if statement will check the true of false of its condition and decide which part should be run.</li>
+        <li>elif will run its part of code when its condition statement turn to be true.</li>
+        <li>else statement will run its code only when if statement and all the elif turn to false.</li>
+    </ul>
+    <p>Check out this example!</p>
+    <img src="images/c1.png" alt="">
+
+
+
+    </section>
+
+    <section id="module3">
+        <h1>Loops</h1>
+        <h2>What Are Loops?</h2>
+        <li>Loops are a sequence of instructions that are continually repeated until a certain condition is reached. We can use loops to repeat an instruction multiple times!</li>
+        <img src="images/Loop Example.gif" alt="">
+
+        <h2>Types of Loops</h2>
+        <li>For Loop</li>
+        <li>While Loop</li>
+
+        <h3>Let's Make a For Loop!</h3>
+        <img src="images/For Loop Example.png" alt="">
+
+        <h3>Let's Make a While Loop!</h3>
+        <img src="images/While Loop Example.png" alt="">
+
+        <h2>Useful feature of a for loop in Python!</h2>
+
+        <p>A useful feature of for loops in python is that you are able to iterate through a list/array without having to index the list.
+            <br><br>
+            Instead of doing this:
+        <br>
+        <img src="images/forloop use1.png" alt="">
+
+        <p>we can do this:</b></p>
+
+        <img src="images/forloop use2.png" alt="">
+       
+        <p>A for loop allows you to be able to access every item in a list/array even if you dont know how many items are in the list/array. This is very useful for things such as reading from files.     
+
+        <h2>Loop Dangers!</h2>
+
+        <h3>Infinite Loop</h3>
+        <p>An Infinite Loop is a continuous repetitive conditional loop that gets executed <b>forever</b>. Now an infinite loop will not necessarily run forever, it will eventually end when the computer runs out of memory. However, this is something you should avoid becuase your program will hang.
+        <br><br>
+        You can end up in an infinite loop if you don't have a condition that is met in your loop.</p>
+
+        <p>For Example:</p>
+        <img src="images/Infinite Loop.png" alt="">
+
+        <p>In the above image you can see the loop will never exit because <b>x</b> will never be less than <b>-2</b></p>
+
+    </section>
+
+    <section id="module4">
+        <h1>Functions</h1>
+        <h2>What Are Functions?</h2>
+        <li>Functions are structures that allow us to complete a series of actions in our program. We use them to perform tasks!</li>
+        <li>Example (read the comments!):</li>
+
+        <h2>Types of Functions</h2>
+        <ol>
+            <li> <b>Built-in functions:</b> functions that Python provides for us like <b>print()</b> and <b>input()</b>!</li>
+            <ul>
+            <li>Take a look at <a href="https://docs.python.org/3/library/functions.html">Python Docs</a>
+                 to see all of Python's built-in functions. Scroll down to see what they do!</li></ul>
+            <li><b>User defined functions:</b> functions that programmers create to accomplish specific tasks in their program.</li>
+        </ol>
+
+        <h2>Function Structure:</h2>
+
+        <p>Let's analyze our "do_something()" function from before:</p>
+
+        <img src="images/do_something_labeled.png" alt="do_something function labeled"/>
+
+        <ol>
+            <li>Every function in Python starts with <b>def</b>, followed by the <b>function name</b>, and <b>():</b></li>
+            <ul>
+                <li>"Parameters" are optional inputs that the function uses and changes. Parameters go <b>inside</b> the parentheses. (more on that later)</li>
+                <ul>
+                    <li><b>def makeTable():</b>, <b>def greet(name):</b>, and <b>def add(num1, num2):</b> are all valid first lines of a user-defined function.</li>
+                </ul>
+            </ul>
+            <li>Every function also contains a body.</li>
+            <ul>
+                <li>This is where we add statements to complete our tasks</li>
+                <li>In the do_something() function, our body completes 3 tasks:</li>
+                <ul>
+                    <li>prints "Look I'm doing something"</li>
+                    <li>prints 5 *s</li>
+                    <li>prints "Look I'm doing more!!!"</li>
+                </ul>
+            </ul>
+            <li>Calling a function causes the function body to execute. To call a function, simply write the function name followed by parentheses. If the function takes parameters, put them <b>inside</b> the parentheses.</li>
+            <ul>
+                <li><b>makeTable()</b>, <b>greet("John")</b>, and <b>add(x, y)</b> are all valid function calls.</li>
+            </ul>
+        </ol>
+        
+        <h2>Let's take a look at another example (with parameters!):</h2>
+        <img src="images/add.png" alt="">
+        <p>This add function takes in two parameters (num1, and num2).</p>
+        <li>num1 and num2 reserve spots for numbers or variables that contain numbers!</li>
+        <li>This function <b>returns</b> the sum of num1 and num2.  </li>
+
+        <p>Notice that unlike do_something(), add(num1, num2) prints nothing to the console!</p>
+        <li>This is because the do_something() function prints within the function.</li>
+        <li>In order to see if our add function is working properly, we can call the function within a print statement!</li>
+
+        <img src="images/print_add.png" alt="">
+
+        <h2>User Input!:</h2>
+
+        <p>When programs need the user to provide information, it takes in <b>user input</b>. Here, we will learn how to use the built-in Python function <b>input()</b> to store what the user provides for us.</p>
+
+        <p>Below is the definition of a "greet" function that asks the user for their name and says "Hello <b>user name </b> , how are you?":</p>
+
+        <img src="images/greet.png" alt="">
+
+        <p>Inside of input(), we pass a prompt. This prompt shown to the user before they provide their input. We typically choose prompts that tell the user what they are supposed to do. This is what you should see when your program runs:</p>
+
+        <img src="images/greet2.png" alt="">
+
+        <p>The computer is asking for your name! Do you see the cursor on the console? Write your name and hit enter!</p>
+
+        <img src="images/greet3.png" alt="">
+
+        <p>
+            What really happens here when you hit enter is whatever you typed to the console is then stored in variable, <b>name</b>. Then, our function prints the greeting statement with whatever you entered to the console (see image below). Pretty cool right?</p>
+
+        <img src="images/greet4.png" alt="">
+
+        <h2>Challenge Problem: Cats or Dogs</h2>
+        <p>Define a function named cats_or_dogs that takes no parameters. Ask the user "Which is better? cats or dogs: ". If the user inputs "cats", the console should respond with "Meow!". If the user responds with "dogs", the console should respond with "Bark!" If the user inputs something other that "cats" or "dogs", the console should tell them "You can only answer cats or dogs. Try again!", then the prompt appears again.</p>
+
+        <img src="images/cats_or_dogs.png" alt="">
+
+        <h3>Hints:</h3>
+        <li>Use conditionals since we are checking for different inputs. If this happens -> then do this</li>
+        <li>We use == to determine if two values are the same. Strings are values!</li>
+
+        <h2>Solution</h2>
+        <img src="images/func_solution.png" alt="">
+        <p>Don't be intimidated by the code. Read it line by line and try to understand what it's doing!</p>
+
+        <h2>Summary:</h2>
+        <ul>
+            <li>In this module, we covered:</li>
+            <ul>
+                <li>Functions: built-in & user defined</li>
+                <li>Function Structure</li>
+                <li>Parameters</li>
+                <li>User Input</li>
+            </ul>
+            <li>* Hopefully, completing this module helped you understand the significance of functions. Functions are very common and important structures used in programming. We use functions in our programs to do things! What would programs be if they couldn't do things? 
+            </li>
+        </ul>
+    </section>
+
+    <section id="module5">
+        <h1>Where Can I Use These Skills?</h1>
+        <p>So you've acquired a slew of new skills after this course, where can you use them? It is important to realize that no matter where you work or what the situation is, having a toolbox of skills will always be helpful, even if you don't directly apply the skills to that specific job. </p>
+
+        <h2>Analytical Thinking/ Logic</h2>
+        <ul>
+            <li>Day-to-day basis where you need to analyze what you need to do for a problem</li>
+            <li>Classes, college, sports, and more</li>
+            <li>Hard/Natural sciences like Chemistry and Physics</li>
+        </ul>
+
+        <h2>Breaking the Problem Down</h2>
+        <ul>
+            <li>Classes like Science and Math</li>
+            <li>Where you're dealing with a problem that seems too big to handle on its own</li>
+        </ul>
+        
+        <h2>CS-Related Jobs</h2>
+        <ul>
+            <li>Game Development</li>
+            <ul>
+                <li>Program in C# to create video games</li>
+            </ul>
+            <li>Software Engineer</li>
+            <ul>
+                <li>Program in a variety of languages in order to make apps, games, websites, and much more</li>
+            </ul>
+            <li>Machine Learning Engineer</li>
+            <ul>
+                <li>Usually in Python, ML engineers create some of the leading technologies we see</li>
+            </ul>
+            <li>Computer/Hardware Engineer</li>
+            <ul>
+                <li>Designing and understanding the hardware of a computer, you'll need a core understanding of CS</li>
+            </ul>
+            <li>Data Scientist</li>
+            <ul>
+                <li>Combining CS (usually Python or R) with statistics</li>
+            </ul>
+        </ul>
+        
+        <h2>Outside of CS</h2>
+        <ul>
+            <li>Mathematician</li>
+            <ul>
+                <li>To help with large math problems, you can programatically solve the problem</li>
+            </ul>
+            <li>Chemist</li>
+            <ul>
+                <li>From 3D models of molecules to reaction simulators, you can create/use many softwares for Chemistry</li>
+            </ul>
+            <li>Researcher</li>
+            <ul>
+                <li>As a researcher with access to huge amounts of data, you'll need to sift through them using Data Science/ CS</li>
+            </ul>
+            <li>Physicist</li>
+            <ul>
+                <li>To simulate/project ideas to see if they're sound, you'll use many softwares</li>
+            </ul>
+            <li>Finance/ Business in General </li>
+            <ul>
+                <li>Algorithm trading or just making a prediction on whether something is a good investment or not</li>
+            </ul>
+        </ul>
+    </section>
+
+    <section id="module6">
+        <h1>Rock, Paper, Scissors!</h1>
+        <h3>Apply the concepts you've learned in modules 1-5 to make a program that plays rock, paper, scissors with the user!</h3>
+        <p>Think about what pieces you'll need from what you've just learned?</p>
+        <li>Variables to store information like player names?</li>
+        <li>User Input to take in what your response will be?</li>
+        <li>Conditional statements to see who wins?</li>
+        <li>Maybe a loop to play the game over and over?</li>
+            <h3>Step 1</h3>
+            <li>"import random" into your program. This will allow us to genereate random choices from the computer's side. (We'll see how to use it later)</li>
+            <img src="images/import_random.png" alt=""> 
+            <!-- TODO -->
+            <h3>Step 2</h3>
+            <li>We need to know what the user chose, and what the computer chose. Do not fear, we will show you how to know what the computer "chose".</li>
+            <li>First, store what the user chose. We learned how to do this with user input. We'll accept the inputs: "rock", "paper", or "scissors".</li>
+            <li>Next, we're going to use our import of "random" to store the computer's choice. Like so:</li>
+            <img src="images/random.jpg" alt="">
+
+            <p>As you can see, we've made an array of possible actions, and we make the computer randomly choose among those actions.</p>
+
+            <h3>Step 3</h3>
+            <li>The last thing we need to do is compare the user action and computer action and display a tie, win, or lose message.</li>
+            <li>Think of all the possible cases. What structures do we use when there are multiple cases?</li>
+            <li>Cases:</li>
+            <ul>
+                <li>User action is the same as computer action</li>
+                <li>User chooses rock</li>
+                <ul>
+                    <li>Computer chooses scissors</li>
+                    <li>Computer chooses paper</li>
+                </ul>
+                <li>User chooses paper</li>
+                <ul>
+                    <li>Computer chooses rock </li>
+                    <li>Computer chooses scissors </li>
+                </ul>
+                <li>User chooses scissors</li>
+                <ul>
+                    <li>Computer chooses paper</li>
+                    <li>Computer chooses rock</li>
+                </ul>
+
+                <div class="hiddenCover">
+                    <h2> ~ Solution ~ </h2>
+                    <b id="middle">Hover here to see our solution!</b>
+                    
+                <div class = "hidden">
+                    <p>Here is the solution that we've come up with. Just remember, there are many ways to go about this project.</p>
+                    <img src="images/rps_solution.JPEG" alt="">
+                </div>
+            </div>
+
+
+    </section>
+</body>
+</html>
