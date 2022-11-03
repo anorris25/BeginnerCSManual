@@ -2,7 +2,9 @@
 
 Computer Science in its entirety comes off as intimidating. This manual aims to introduce some simple CS structures and syntax to middle school students or beginners interested in programming. Learning the basics is a great way to start pursuing computer programming!
 
-[online website](https://anorris25.github.io/BeginnerCSManual/Website/)
+[Initial project Pitch](https://anorris25.github.io/beginner-CS-manual-generator/)
+
+[Online Website](https://anorris25.github.io/BeginnerCSManual/Website/)
 
 ## Sections: 
 
