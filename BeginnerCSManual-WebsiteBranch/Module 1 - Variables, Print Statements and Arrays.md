@@ -1,4 +1,4 @@
-# Module 1: Variables and Print Statements
+# Module 1: Variables, Print Statements and Arrays
 
 
 # Variables
