@@ -5,7 +5,7 @@ Computer Science in its entirety comes off as intimidating. This manual aims to 
 ## Sections: 
 
 * Module 0 - Start Here (Prelude)
-* Module 1 - Variables & Print Statements
+* Module 1 - Variables, Print Statements and Arrays
 * Module 2 - Conditionals
 * Module 3 - Loops
 * Module 4 - Functions
